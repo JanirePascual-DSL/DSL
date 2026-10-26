@@ -6,16 +6,6 @@
   },
   "plugins": [
     {
-      "name": "project-init",
-      "source": "./project-init",
-      "description": "Initialize a new Claude project for DSL or any analogous research lab \u2014 scans uploaded skill files, checks for the project index and reference docs, and configures the project environment."
-    },
-    {
-      "name": "project-updater",
-      "source": "./project-updater",
-      "description": "Check an already-initialized DSL project for drift between its declared index and actual files, and refresh index.md."
-    },
-    {
       "name": "output-style",
       "source": "./output-style",
       "description": "Standing conversational style instruction for DSL project sessions \u2014 tone, formatting, and fabrication-prevention rules applied continuously, not deliverable formatting."
